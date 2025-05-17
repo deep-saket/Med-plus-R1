@@ -17,6 +17,8 @@ Med-R1 explores the potential of reinforcement learning (RL) to improve medical 
 
 ---
 
+![image](Images/fig_data_distribution.png)
+
 
 ## Setup
 
