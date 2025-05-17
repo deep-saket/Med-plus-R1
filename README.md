@@ -6,8 +6,7 @@
 [![🤗 Model on Hugging Face](https://img.shields.io/badge/HuggingFace-Med--R1-blue?logo=huggingface)](https://huggingface.co/yuxianglai117/Med-R1)
 [![arXiv](https://img.shields.io/badge/arXiv-2503.13939-b31b1b.svg)](https://arxiv.org/abs/2503.13939)
 
-**Checkpoints are now available on Hugging Face.**  
-**Code has been released**
+> 🚀 **[Code and Checkpoints Released →](https://github.com/Yuxiang-Lai117/Med-R1/releases/tag/v1.0.0)**
 
 ---
 
