@@ -17,6 +17,26 @@ Med-R1 explores the potential of reinforcement learning (RL) to improve medical 
 
 ---
 
+
+## Setup
+
+```bash
+conda create -n med-r1 python=3.11 
+conda activate med-r1
+
+bash setup.sh
+```
+
+> [!NOTE] 
+> If you meet bug when running the script, first try align your environments with `./src/requirements.txt`
+
+
+### Supported Models
+
+1. Qwen2-VL
+2. Qwen2.5-VL 
+
+
 ## 🧪 Supported Modalities
 
 We provide **cross-modality checkpoints**, each trained on a specific imaging type:
