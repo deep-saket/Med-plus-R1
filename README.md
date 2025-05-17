@@ -7,7 +7,7 @@
 
 **Checkpoints are now available on Hugging Face.**
 
-**Code will be released soon!**
+**Code has been released**
 
 ---
 
