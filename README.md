@@ -1,3 +1,4 @@
+
 # Med-R1: Reinforcement Learning for Medical Vision-Language Models
 
 **Med-R1** is a reinforcement learning-enhanced vision-language model (VLM) tailored for generalizable medical reasoning. Built on Qwen2-VL-2B, Med-R1 is trained with Group Relative Policy Optimization (GRPO) to support **8 medical imaging modalities** and **5 key diagnostic tasks**, delivering high performance with parameter efficiency.
@@ -5,8 +6,7 @@
 [![🤗 Model on Hugging Face](https://img.shields.io/badge/HuggingFace-Med--R1-blue?logo=huggingface)](https://huggingface.co/yuxianglai117/Med-R1)
 [![arXiv](https://img.shields.io/badge/arXiv-2503.13939-b31b1b.svg)](https://arxiv.org/abs/2503.13939)
 
-**Checkpoints are now available on Hugging Face.**
-
+**Checkpoints are now available on Hugging Face.**  
 **Code has been released**
 
 ---
@@ -15,12 +15,21 @@
 
 Med-R1 explores the potential of reinforcement learning (RL) to improve medical reasoning in vision-language models. Unlike traditional supervised fine-tuning (SFT), which may overfit to task-specific data, Med-R1 leverages reward-driven optimization to guide reasoning paths that are robust, diverse, and interpretable.
 
+![Overview of Modalities and Tasks](Images/fig_data_distribution.png)
+
 ---
 
-![image](Images/fig_data_distribution.png)
+
+## 📈 GRPO Training Curves
+
+Training reward and completion length across modalities and tasks.
+
+![Rewards and Lengths](Images/fig_rewards_length.png)
+
+---
 
 
-## Setup
+## 🛠️ Setup
 
 ```bash
 conda create -n med-r1 python=3.11 
@@ -32,14 +41,16 @@ bash setup.sh
 > [!NOTE] 
 > If you meet bug when running the script, first try align your environments with `./src/requirements.txt`
 
+---
 
 ### Supported Models
 
-1. Qwen2-VL
-2. Qwen2.5-VL 
+- Qwen2-VL
+- Qwen2.5-VL 
 
+---
 
-## 🧪 Supported Modalities
+## 🧠 Supported Modalities
 
 We provide **cross-modality checkpoints**, each trained on a specific imaging type:
 
@@ -66,19 +77,31 @@ We also provide **cross-task checkpoints**, each focused on a key medical reason
 
 ---
 
-## Use of Models and Checkpoints
+## 🧪 Evaluation
+
+Med-R1 produces chain-of-thought responses to medical queries across different imaging types.
+
+![Example Outputs](Images/fig_output.png)
+
+---
+
+## 🧩 Use of Models and Checkpoints
 
 [![🤗 Model on Hugging Face](https://img.shields.io/badge/HuggingFace-Med--R1-blue?logo=huggingface)](https://huggingface.co/yuxianglai117/Med-R1)
 
-## Acknowledgements
+---
+
+## 🙏 Acknowledgements
 
 We thank the authors of **OmniMedVQA** and **R1-V** for their open-source contributions.  
-🔗 [R1-V GitHub Repository](https://github.com/Deep-Agent/R1-V)
+🔗 [R1-V GitHub Repository](https://github.com/Deep-Agent/R1-V)  
 🔗 [OmniMedVQA GitHub Repository](https://github.com/OpenGVLab/Multi-Modality-Arena)
 
+---
 
-## Citation
-```
+## 📚 Citation
+
+```bibtex
 @article{lai2025med,
   title={Med-R1: Reinforcement Learning for Generalizable Medical Reasoning in Vision-Language Models},
   author={Lai, Yuxiang and Zhong, Jike and Li, Ming and Zhao, Shitian and Yang, Xiaofeng},
