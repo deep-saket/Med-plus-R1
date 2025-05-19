@@ -119,7 +119,7 @@ torchrun --nproc_per_node=2 \
 
 ## 🤖 Model Inference & Usage
 
-[![🧑‍💻 Model on Hugging Face](https://img.shields.io/badge/HuggingFace-Med--R1-blue?logo=huggingface)](https://huggingface.co/yuxianglai117/Med-R1)  
+**Checkpoints**: [![🧑‍💻 Model on Hugging Face](https://img.shields.io/badge/HuggingFace-Med--R1-blue?logo=huggingface)](https://huggingface.co/yuxianglai117/Med-R1)  
 
 ```python
 from transformers import Qwen2VLForConditionalGeneration, AutoProcessor
