@@ -90,6 +90,33 @@ Image size should be resized to **384×384**. Below is an example JSON input for
 
 ---
 
+# 🚀 GRPO Training Script for Med-R1
+```bash
+torchrun --nproc_per_node=2 \
+         --nnodes=1 \
+         --node_rank=0 \
+         --master_addr="127.0.0.1" \
+         --master_port=12345 \
+         src/open_r1/grpo_vqa_nothink.py \
+         --output_dir ./output/Modality_CT \
+         --model_name_or_path ./checkpoints/Qwen2.5-VL-3B-Instruct \
+         --dataset_name ./data/VQA/CT_384 \
+         --max_prompt_length 1024 \
+         --per_device_train_batch_size 1 \
+         --gradient_accumulation_steps 2 \
+         --logging_steps 1 \
+         --bf16 \
+         --report_to wandb \
+         --gradient_checkpointing false \
+         --attn_implementation flash_attention_2 \
+         --max_pixels 401408 \
+         --num_train_epochs 2 \
+         --run_name Qwen2.5-VL-3B-GRPO-CT \
+         --save_steps 200 \
+         --save_only_model true \
+         --num_generations 4
+```
+
 ## 🤖 Model Inference & Usage
 
 ```python
