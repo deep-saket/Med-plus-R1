@@ -150,9 +150,9 @@ for i in tqdm(range(0, len(messages), BSZ)):
 
 ---
 
-## 🧪 Evaluation
+## Think or Nothink
 
-Evaluation across modalities and tasks demonstrates significant CoT-based reasoning improvements:
+Evaluation across modalities and tasks:
 
 ![Heatmap](Images/think_nothink.png)
 ---
