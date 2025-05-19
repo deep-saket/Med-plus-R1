@@ -154,8 +154,10 @@ for i in tqdm(range(0, len(messages), BSZ)):
 
 Evaluation across modalities and tasks demonstrates significant CoT-based reasoning improvements:
 
-![Modality Heatmap](Images/modalityimprove_heatmap.png)
-![Task Heatmap](Images/taskimprove_heatmap.png)
+<p align="center">
+  <img src="Images/modalityimprove_heatmap.png" alt="Modality Heatmap" width="45%" style="margin-right: 10px;" />
+  <img src="Images/taskimprove_heatmap.png" alt="Task Heatmap" width="45%" />
+</p>
 
 ---
 
