@@ -75,7 +75,7 @@ We also release **cross-task checkpoints**, each focusing on a key diagnostic fu
 
 ## 📂 Data Format
 
-[![Source Data on Hugging Face](https://img.shields.io/badge/HuggingFace-OmniMedVQA-blue?logo=huggingface)](https://huggingface.co/datasets/foreverbeliever/OmniMedVQA)
+**Data Link:** [![Source Data on Hugging Face](https://img.shields.io/badge/HuggingFace-OmniMedVQA-blue?logo=huggingface)](https://huggingface.co/datasets/foreverbeliever/OmniMedVQA)
 
 All input images should be resized to **384×384** resolution. Below is an example of the expected input JSON format:
 
