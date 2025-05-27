@@ -88,6 +88,7 @@ All input images should be resized to **384×384** resolution. Below is an examp
   },
   ...
 ]
+```
 
 # 🚀 GRPO Training Script for Med-R1
 ```bash
