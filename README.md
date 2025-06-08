@@ -1,7 +1,7 @@
 
 <p align="center">
   <img src="Images/Logo.png" alt="Med-R1 Logo" width="250"/><br>
-  <h2 style="margin-top: -10px;">Med-R1: Reinforcement Learning for Medical Vision-Language Models</h2>
+  <h2 style="margin-top: -30px;">Med-R1: Reinforcement Learning for Generalizable Medical Reasoning in Vision-Language Models</h2>
 </p>
 
 
