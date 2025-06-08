@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/med-r1-logo.png" alt="Med-R1 Logo" width="250"/>
+  <img src="Images/Logo.png" alt="Med-R1 Logo" width="250"/>
 </p>
 
 # Med-R1: Reinforcement Learning for Medical Vision-Language Models
