@@ -4,6 +4,10 @@
 
 [![🧑‍💻 Model on Hugging Face](https://img.shields.io/badge/HuggingFace-Med--R1-blue?logo=huggingface)](https://huggingface.co/yuxianglai117/Med-R1)  
 [![arXiv](https://img.shields.io/badge/arXiv-2503.13939-b31b1b.svg)](https://arxiv.org/abs/2503.13939)
+<!-- Visitor Count -->
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=Yuxiang-Lai117.Med-R1)
+<!-- GitHub Stars -->
+[![GitHub Stars](https://img.shields.io/github/stars/Yuxiang-Lai117/Med-R1.svg?style=social)](https://github.com/Yuxiang-Lai117/Med-R1/stargazers)
 
 > 🚀 **[Code & Checkpoints Released → v1.0.0](https://github.com/Yuxiang-Lai117/Med-R1/releases/tag/v1.0.0)**
 
