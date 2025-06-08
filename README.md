@@ -1,4 +1,7 @@
-<img src="Images/Logo.png" alt="Med-R1 Logo" width="100"/>
+<p align="center">
+  <img src="./assets/med-r1-logo.png" alt="Med-R1 Logo" width="250"/>
+</p>
+
 # Med-R1: Reinforcement Learning for Medical Vision-Language Models
 
 **Med-R1** is a reinforcement learning-enhanced vision-language model (VLM) designed for generalizable medical reasoning. Built on Qwen2-VL-2B, Med-R1 uses Group Relative Policy Optimization (GRPO) to support **8 diverse imaging modalities** and **5 core diagnostic tasks**, achieving high performance with parameter efficiency.
