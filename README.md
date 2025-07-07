@@ -14,7 +14,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/Yuxiang-Lai117/Med-R1.svg?style=social)](https://github.com/Yuxiang-Lai117/Med-R1/stargazers)
 
 </div>
-> Qwen2.5 checkpoint and training code are now publicly available on [![🧑‍💻 Model on Hugging Face](https://img.shields.io/badge/HuggingFace-Med--R1-blue?logo=huggingface)](https://huggingface.co/yuxianglai117/Med-R1)!  
+> Qwen2.5 checkpoint and training code are now publicly available on Hugging Face!
 > 🚀 **[Code & Checkpoints Released → v1.0.0](https://github.com/Yuxiang-Lai117/Med-R1/releases/tag/v1.0.0)**
 
 ---
