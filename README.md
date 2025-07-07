@@ -15,6 +15,7 @@
 
 </div>
 > Qwen2.5 checkpoint and training code are now publicly available on Hugging Face!
+
 > 🚀 **[Code & Checkpoints Released → v1.0.0](https://github.com/Yuxiang-Lai117/Med-R1/releases/tag/v1.0.0)**
 
 ---
