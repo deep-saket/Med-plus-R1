@@ -1,4 +1,3 @@
-
 <p align="center">
   <img src="Images/Logo.png" alt="Med-R1 Logo" width="150"/>
 </p>
@@ -47,6 +46,8 @@ bash setup.sh
 
 > [!NOTE] 
 > If you encounter issues during setup, please ensure your environment aligns with `./src/requirements.txt`.
+
+- For macOS/MPS and detailed steps to download authors’ pretrained checkpoints and the OmniMedVQA dataset, see: `SETUP_PRETRAINED_AND_DATA.md`.
 
 ---
 
